@@ -1,0 +1,43 @@
+* {
+    font-family: "Open Sans";
+}
+
+body {
+    margin: 0;
+}
+
+#main {
+    padding-top: 50px;
+}
+
+#footer {
+    background-color: #222;
+    max-height: 50vh;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.viewsight {
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.distance-left {
+    margin-left: 7px;
+}
+
+.distance-above {
+    margin-top: 15px;
+}
+
+.light-gray {
+    background-color: lightgray;
+}
+
+.beige {
+    background-color: beige;
+}

@@ -1,0 +1,123 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-info {
+    display: flex;
+    padding-bottom: 15px;
+    border-bottom: #444 1px solid;
+}
+
+.footer-elements {
+    display: block;
+}
+
+.footer-elements h3 {
+    color: white;
+    border-bottom: black 1px solid;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+
+.footer-elements a {
+    padding: 10px;
+    background-color: lightblue;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.table-colm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.table-colm p {
+    margin: 5px 0;
+}
+
+.table-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer-links a {
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+    color: #888;
+}
+
+.contact h2 {
+    font-size: 20px;
+    color: #eeeeee;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 0.5;
+    margin-left: 30px;
+    color: #eeeeee;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-medium {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-medium p {
+    margin: 0;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.contact-number {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-number p {
+    margin: 0;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.telephone:before {
+    content: '';
+    background-image: url("../Icons/contact-light.svg");
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    position: absolute;
+    margin-left: -30px;
+    transform: translateY(-2px);
+}
+
+.fax:before {
+    content: '';
+    background-image: url("../Icons/fax-light.svg");
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    position: absolute;
+    margin-left: -30px;
+    transform: translateY(-2px);
+}

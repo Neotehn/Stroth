@@ -1,0 +1,39 @@
+.sliderIntro {
+    display: flex;
+    align-items: center;
+}
+
+.slick-track {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Set the tracks height to 70% of the view port height */
+}
+
+.slick-slide {
+    display: flex !important;
+    height: inherit !important;
+}
+
+.slick-slide img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.headline-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headline-slider h1 {
+    margin-bottom: 0;
+}
+
+.headline-slider hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    width: 100%;
+    margin: 15px 0 30px 0;
+}

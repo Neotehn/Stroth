@@ -21,3 +21,12 @@
     transform: translateX(-50%);
     cursor: pointer;
 }
+
+.teaser-text-intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(248, 248, 248, 0.7);
+    padding: 20px;
+}

@@ -8,6 +8,7 @@
     <script type="text/javascript" src="Javascript/intro.js"></script>
     <script type="text/javascript" src="Javascript/opening-hours.js"></script>
     <script type="text/javascript" src="Javascript/layout.js"></script>
+    <script type="text/javascript" src="Javascript/navigation.js"></script>
 
     <link rel="stylesheet" href="Css/navigation.css">
     <link rel="stylesheet" href="Css/layout.css">
@@ -27,47 +28,40 @@
 <body>
     <header>
         <div class="navigation-bar">
-            <div class="navigation-element">
-                <div class="dropdown">
-                    <a class="nav-title">Erstes Element</a>
-                    <div class="dropdown-content">
-                        <a>new Stuff</a>
-                        <a>new Stuff</a>
-                        <a>new Stuff</a>
-                        <a>new Stuff</a>
-                    </div>
+            <div id="navigationBar" class="navigation-element  navigation-transparent">
+                <div class="navigation-logo">
+                    <a class="nav-title-brand">STROTH & EGOROVA</a>
                 </div>
-                <div class="dropdown">
-                    <a class="nav-title">Zweites Element</a>
-                    <div class="dropdown-content">
-                        <a>new Stuff</a>
-                        <a>new Stuff</a>
-                        <a>new Stuff</a>
-                        <a>new Stuff</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <a class="nav-title">Drittes Element</a>
-                    <div class="dropdown-content">
-                        <a>new Stuff</a>
-                        <a>new Stuff</a>
-                        <a>new Stuff asdsadsda asas ddas </a>
-                        <a>new Stuff</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <a class="nav-title">Viertes Element</a>
-                    <div class="dropdown-content">
-                        <a>new Stuff</a>
-                        <a>new Stuff</a>
-                        <a>new Stuff</a>
-                        <a>new Stuff</a>
-                    </div>
+                <a class="toggle-button" onclick="dropMenu()">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <a class="nav-title">Vorsorge</a>
+                <a class="nav-title">Verhütung</a>
+                <a class="nav-title">Schwangerschaft</a>
+                <a class="nav-title">Operationen</a>
+                <a class="nav-title">Intimchirugie</a>
+                <a class="nav-title">Kontakt</a>
+                <a class="nav-title search">Suche</a>
+                <div class="mobile">
+                    <a class="nav-title-mobile">Vorsorge</a>
+                    <a class="nav-title-mobile">Verhütung</a>
+                    <a class="nav-title-mobile">Schwangerschaft</a>
+                    <a class="nav-title-mobile">Operationen</a>
+                    <a class="nav-title-mobile">Intimchirugie</a>
+                    <a class="nav-title-mobile">Kontakt</a>
                 </div>
             </div>
         </div>
         <div class="viewsight intro" id="intro">
-            <img src="Images/example-picture.jpg">
+            <img class="imgIntro" src="Images/example-picture.jpg">
+            <div class="teaser-text-intro">
+                <h2>Frauenärzte am Potsdammer Platz</h2>
+                <p>Lasdasdassad</p>
+                <p>sadasddasdas</p>
+                <p>sdaasd</p>
+            </div>
             <a href="#slider-praxis"></a>
         </div>
     </header>

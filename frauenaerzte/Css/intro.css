@@ -10,7 +10,7 @@
     object-fit: fill;
 }
 
-.intro a {
+.intro .introArrow {
     position: absolute;
     content: "";
     background-image: url("../Images/arrow-down.png");
@@ -29,4 +29,48 @@
     transform: translate(-50%, -50%);
     background-color: rgba(248, 248, 248, 0.7);
     padding: 20px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.teaser-text-intro .box {
+    position: relative;
+}
+
+.middleBox {
+    display: flex;
+    justify-content: center;
+}
+
+.box p {
+    line-height: 16px;
+    margin-left: 5%;
+    font-weight: bold;
+    position: relative;
+    width: 90%;
+}
+
+.introOpenings p {
+    position: relative;
+    padding-left: 35px;
+}
+
+.box a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    background-color: darkcyan;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.box span {
+    position: absolute;
+    left: -3px;
+}
+
+@media (max-width: 1100px) {
+    .teaser-text-intro {
+        display: none;
+    }
 }

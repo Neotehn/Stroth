@@ -1,9 +1,29 @@
 * {
-    font-family: "Open Sans";
+    font-family: "Segoe UI Historic";
+    color: black;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 20px;
 }
 
 body {
     margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 #main {

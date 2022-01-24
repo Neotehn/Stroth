@@ -12,9 +12,8 @@ window.addEventListener('scroll', (event) => {
     if (scrollHeight >= (pictureHeight - navigationHeight)) {
         navigationBar.className = "navigation-element navigation-nontransparent";
         dropDown.style.marginTop = "51px";
-        hamburger.style.marginTop = "5px";
+        hamburger.style.marginTop = "0px";
         hamburger.style.marginRight = "5px";
-        brand.style.setProperty('position', 'inherit');
 
         for (i = 0; i < menu.length; i++) {
             menu[i].classList.add('.menu-dropdown-beige');
@@ -24,8 +23,6 @@ window.addEventListener('scroll', (event) => {
         dropDown.style.marginTop = "71px";
         hamburger.style.marginTop = "20px";
         hamburger.style.marginRight = "20px";
-        brand.style.position = "relative";
-        brand.style.right = "-10px";
 
         for (i = 0; i < menu.length; i++) {
             menu[i].classList.remove('.menu-dropdown-beige');

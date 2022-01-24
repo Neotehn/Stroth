@@ -2,3 +2,8 @@
     font-family: "Open Sans";
     src: url("../Fonts/OpenSans/OpenSans-Regular.ttf");
 }
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("../Fonts/Metropolis/Metropolis-MediumItalic.otf");
+}

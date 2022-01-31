@@ -5,7 +5,7 @@ function strothTextEnter () {
 
 
     welcomeText.style.display = "none"
-    egorova.style.opacity = "0.5";
+    egorova.style.opacity = "0.3";
     text.style.visibility = 'visible';
 }
 
@@ -27,7 +27,7 @@ function egorovaTextEnter () {
 
 
     welcomeText.style.display = "none"
-    stroth.style.opacity = "0.5";
+    stroth.style.opacity = "0.3";
     text.style.visibility = 'visible';
 }
 

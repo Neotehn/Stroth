@@ -58,23 +58,46 @@
     color: #888;
 }
 
+.footer-links img {
+    margin: 10px;
+    width: 32px;
+}
+
 .contact h2 {
     font-size: 20px;
-    color: #eeeeee;
+    color: darksalmon;
 }
 
 .contact {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     flex: 0.5;
-    margin-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
     color: #eeeeee;
+    position: relative;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+.contact a {
+    padding: 7px;
+    background-color: darkcyan;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.contactHours h2 {
+    font-size: 20px;
+    color: darksalmon;
 }
 
 .contact-details {
     display: flex;
     flex-direction: row;
+    margin-top: 10px;
 }
 
 .contact-medium {
@@ -120,4 +143,21 @@
     position: absolute;
     margin-left: -30px;
     transform: translateY(-2px);
+}
+
+@media (max-width: 820px) {
+
+    .contactHours {
+        display: block !important;
+    }
+
+    .contactHours h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact {
+        margin: 0;
+    }
 }

@@ -12,14 +12,14 @@
 
 .business-hours .title {
     font-size: 20px;
-    color: #eeeeee;
+    color: darksalmon;
     text-transform: uppercase;
     padding-left: 5px;
     border-left: 4px solid #ffac0c;
 }
 
 .business-hours li {
-    color: #bbb;
+    color: black;
     line-height: 30px;
     border-bottom: 1px solid #333;
 }

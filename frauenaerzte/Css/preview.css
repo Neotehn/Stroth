@@ -25,6 +25,8 @@
     max-width: 60%;
     max-height: 60%;
     padding: 0 20px;
+    opacity: 1;
+    transition: opacity .4s;
 }
 
 .previewImgsStroth {
@@ -84,56 +86,19 @@
 
 .mobileShowcast img {
     object-fit: contain;
-    padding: 40px 40px 0px 40px;
+    padding: 30px 30px 0px 30px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
 }
 
-.dropdown {
-    transition: all 0.2s ease-in-out;
-    overflow: hidden;
-    margin: 30px;
-    background: rgb(248, 248, 248);
-    border: solid 1px rgb(222, 222, 222);
-    width: 320px;
-    display: grid;
-    cursor: pointer;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-    "icon"
-    "menu";
-}
-
-.icon {
+.previewContainer {
     display: flex;
-    justify-content: space-between;
-    padding: 0 25px 0 10px;
-}
-
-.menu {
-    grid-area: menu;
-    transition: all 0.2s ease-in-out;
-    height: 228px;
-}
-
-.menu p {
-    color: black;
-    transition: all 0.2s ease-in-out;
-}
-
-.menu li {
-    font-size: 24px;
-    text-transform: uppercase;
-    transition: all 0.2s ease-in-out;
-    padding: 14px 10px;
-    border-top: solid 1px rgb(202, 202, 202);
-}
-
-.dropdown.closed .menu {
-    height: 0px;
-}
-
-.dropdown.closed .icon span {
-    transform: rotate(180deg);
+    flex-direction: row;
+    background-color: #888888;
+    margin: 20px 0;
+    padding: 40px;
+    width: 100%;
 }
 
 @media (max-width: 1200px) {
@@ -148,6 +113,4 @@
     .mobilePreview {
         display: block;
     }
-
-
 }

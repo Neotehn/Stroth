@@ -10,6 +10,7 @@
     <script type="text/javascript" src="frauenaerzte/Javascript/layout.js"></script>
     <script type="text/javascript" src="frauenaerzte/Javascript/navigation.js"></script>
     <script type="text/javascript" src="frauenaerzte/Javascript/preview.js"></script>
+    <script type="text/javascript" src="frauenaerzte/Javascript/information.js"></script>
 
     <link rel="stylesheet" href="frauenaerzte/Css/navigation.css">
     <link rel="stylesheet" href="frauenaerzte/Css/flashNews.css">
@@ -18,6 +19,7 @@
     <link rel="stylesheet" href="frauenaerzte/Css/footer.css">
     <link rel="stylesheet" href="frauenaerzte/Css/location.css">
     <link rel="stylesheet" href="frauenaerzte/Css/dataCompany.css">
+    <link rel="stylesheet" href="frauenaerzte/Css/information.css">
     <link rel="stylesheet" href="frauenaerzte/Css/opening-hours.css">
     <link rel="stylesheet" href="frauenaerzte/Css/intro.css">
     <link rel="stylesheet" href="frauenaerzte/Css/preview.css">
@@ -34,26 +36,30 @@
     <header>
         <div class="navigation-bar">
             <div id="navigationBar" class="navigation-element  navigation-transparent">
-                <a class="nav-title nav-title-brand">STROTH & EGOROVA</a>
+                <a class="nav-title nav-title-brand" href="#intro">STROTH & EGOROVA</a>
                 <a class="toggle-button" onclick="dropMenu()">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
                 </a>
-                <a class="nav-title">Vorsorge</a>
-                <a class="nav-title">Verhütung</a>
-                <a class="nav-title">Schwangerschaft</a>
-                <a class="nav-title">Operationen</a>
-                <a class="nav-title">Intimchirugie</a>
-                <a class="nav-title">Kontakt</a>
-                <a class="nav-title search">Suche</a>
+                <a class="nav-title" href="#provision">Vorsorge</a>
+                <a class="nav-title" href="#prevention">Verhütung</a>
+                <a class="nav-title" href="#pregnancy">Schwangerschaft</a>
+                <a class="nav-title" href="#operation">Operationen</a>
+                <a class="nav-title" href="#surgery">Intimchirugie</a>
+                <a class="nav-title" href="#contact">Kontakt</a>
+                <a class="nav-title search">
+                    <img src="frauenaerzte/Images/germany.png" />
+                    <img src="frauenaerzte/Images/russia.png" />
+                    <img src="frauenaerzte/Images/united_kindom.png" />
+                </a>
                 <div class="mobile">
-                    <a class="nav-title-mobile">Vorsorge</a>
-                    <a class="nav-title-mobile">Verhütung</a>
-                    <a class="nav-title-mobile">Schwangerschaft</a>
-                    <a class="nav-title-mobile">Operationen</a>
-                    <a class="nav-title-mobile">Intimchirugie</a>
-                    <a class="nav-title-mobile">Kontakt</a>
+                    <a class="nav-title-mobile" href="#provision">Vorsorge</a>
+                    <a class="nav-title-mobile" href="#prevention">Verhütung</a>
+                    <a class="nav-title-mobile" href="#pregnancy">Schwangerschaft</a>
+                    <a class="nav-title-mobile" href="#operation">Operationen</a>
+                    <a class="nav-title-mobile" href="#surgery">Intimchirugie</a>
+                    <a class="nav-title-mobile" href="#contact">Kontakt</a>
                 </div>
             </div>
         </div>
@@ -242,7 +248,176 @@
                 </div>
             </div>
         </div>
-        <div class="dataCompany">
+
+        <div class="information" id="information">
+            <div class="infoWrapper container" id="provision">
+                <div class="headline">
+                    <h2>Vorsorge</h2>
+                </div>
+                <div class="contentInformation">
+                    <div class="leftShortContent">
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        </p>
+                    </div>
+
+                    <div class="rightAccordeon">
+                        <div class="wrapperAccordeon">
+                            <button class="accordion">Section 3</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <button class="accordion">Section 3</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <button class="accordion">Section 3</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <button class="accordion">Section 3</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="infoWrapper container" id="prevention">
+                <div class="headline">
+                    <h2>Verhütung</h2>
+                </div>
+                <div class="contentInformation">
+                    <div class="leftShortContent">
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        </p>
+                    </div>
+
+                    <div class="rightAccordeon">
+                        <div class="wrapperAccordeon">
+                            <button class="accordion">Section 3</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <button class="accordion">Section 3</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <button class="accordion">Section 3</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <button class="accordion">Section 3</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="infoWrapper container" id="pregnancy">
+                <div class="headline">
+                    <h2>Schwangerschaft</h2>
+                </div>
+                <div class="contentInformation">
+                    <div class="leftShortContent">
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        </p>
+                    </div>
+
+                    <div class="rightAccordeon">
+                        <div class="wrapperAccordeon">
+                            <button class="accordion">Section 3</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <button class="accordion">Section 3</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <button class="accordion">Section 3</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <button class="accordion">Section 3</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="infoWrapper container" id="operation">
+                <div class="headline">
+                    <h2>Operationen</h2>
+                </div>
+                <div class="contentInformation">
+                    <div class="leftShortContent">
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        </p>
+                    </div>
+
+                    <div class="rightAccordeon">
+                        <div class="wrapperAccordeon">
+                            <button class="accordion">Section 3</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <button class="accordion">Section 3</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <button class="accordion">Section 3</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <button class="accordion">Section 3</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="infoWrapper container" id="surgery">
+                <div class="headline">
+                    <h2>Intimchirugie</h2>
+                </div>
+                <div class="contentInformation">
+                    <div class="leftShortContent">
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        </p>
+                    </div>
+
+                    <div class="rightAccordeon">
+                        <div class="wrapperAccordeon">
+                            <button class="accordion">Section 3</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <button class="accordion">Section 3</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <button class="accordion">Section 3</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <button class="accordion">Section 3</button>
+                            <div class="panel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dataCompany" id="contact">
             <div class="container">
                 <div class="contactHours">
                     <div class="contact">
@@ -282,13 +457,14 @@
                 </div>
             </div>
         </div>
+
         <footer id="footer">
             <div class="container footer">
-                <div class="footer-links">
-                    <img src="frauenaerzte/Icons/facebook-app.png" />
-                    <img src="frauenaerzte/Icons/ig-instagram.png" />
-                    <img src="frauenaerzte/Icons/twitter-app.png" />
-                    <img src="frauenaerzte/Icons/youtube-app.png" />
+                <div class="footer-social">
+                    <a><img src="frauenaerzte/Icons/facebook-app.png" /></a>
+                    <a><img src="frauenaerzte/Icons/ig-instagram.png" /></a>
+                    <a><img src="frauenaerzte/Icons/twitter-app.png" /></a>
+                    <a><img src="frauenaerzte/Icons/youtube-app.png" /></a>
                 </div>
                 <div class="footer-links">
                     <a>Impressum</a>

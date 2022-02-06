@@ -5,7 +5,6 @@ window.addEventListener('scroll', (event) => {
     var navigationBar = document.getElementById("navigationBar");
     var hamburger = document.querySelector('.toggle-button');
     var dropDown = document.querySelector('.mobile');
-    var brand = document.querySelector('.navigation-logo');
     var menu = document.querySelectorAll('.nav-title-mobile');
 
 
@@ -41,3 +40,10 @@ function dropMenu () {
         menu.classList.add('.active');
     }
 }
+
+window.addEventListener('resize', function(event) {
+    if (window.outerWidth > 1100) {
+        document.querySelector('.mobile').style.display = "none";
+        document.querySelector('.mobile').className = "mobile";
+    }
+}, true);

@@ -36,12 +36,26 @@
 .navigation-element .search {
     position: absolute;
     right: 0;
-    width: 200px;
+    width: 90px;
+    cursor: unset;
 }
 
 .navigation-logo {
     position: relative;
     right: -10px;
+}
+
+.search img {
+    width: 24px;
+    cursor: pointer;
+}
+
+.navigation-element.navigation-transparent .nav-title.search:hover {
+    background-color: unset;
+}
+
+.navigation-element.navigation-nontransparent .nav-title.search:hover {
+    background-color: unset;
 }
 
 .navigation-element.navigation-transparent .nav-title:hover {
@@ -96,6 +110,7 @@
     width: 100%;
     padding: 20px;
     background-color: rgba(248, 248, 248, 0.7);
+    text-decoration: none;
 }
 
 .menu-dropdown-beige {

@@ -58,7 +58,19 @@
     color: #888;
 }
 
-.footer-links img {
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer-social a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-social img {
     margin: 10px;
     width: 32px;
 }

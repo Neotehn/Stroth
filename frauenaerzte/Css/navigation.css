@@ -45,10 +45,6 @@
     right: -10px;
 }
 
-.search img {
-    width: 24px;
-    cursor: pointer;
-}
 
 .navigation-element.navigation-transparent .nav-title.search:hover {
     background-color: unset;

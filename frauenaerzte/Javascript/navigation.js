@@ -47,3 +47,22 @@ window.addEventListener('resize', function(event) {
         document.querySelector('.mobile').className = "mobile";
     }
 }, true);
+
+$(document).ready(function(){
+    $('.language').click(function () {
+        var choosedLan = $(this).text();
+        var newPage = window.location.protocol + "//" + window.location.host + "/" + "website/";
+
+        if (choosedLan == "EN") {
+            newPage += "frauenaerzte/Pages/enPage.html";
+            window.location.href = newPage;
+        } else if (choosedLan == "RU") {
+            newPage += "frauenaerzte/Pages/ruPage.html";
+            window.location.href = newPage;
+        } else if (choosedLan == "DE") {
+            newPage += "index.html";
+            window.location.href = newPage;
+        }
+    });
+    console.log(window.location);
+});

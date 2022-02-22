@@ -39,6 +39,22 @@
     width: 90px;
     cursor: unset;
 }
+.navigation-element .search .language {
+    cursor: pointer;
+    display: inline;
+    font-size: 17px;
+    color: white;
+}
+
+.navigation-element .search .language.first {
+    right: 30px;
+}
+
+
+.languageDistance {
+    color: white;
+    display: inline;
+}
 
 .navigation-logo {
     position: relative;

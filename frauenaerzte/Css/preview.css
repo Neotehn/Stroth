@@ -92,15 +92,6 @@
     width: auto;
 }
 
-.previewContainer {
-    display: flex;
-    flex-direction: row;
-    background-color: #888888;
-    margin: 20px 0;
-    padding: 40px;
-    width: 100%;
-}
-
 @media (max-width: 1200px) {
     .previewText {
         display: none;

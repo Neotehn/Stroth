@@ -59,3 +59,15 @@
     color: #7c4657;
 }
 
+@media (max-width: 520px) {
+    .location_map {
+        min-height: 300px;
+        min-width: 150px;
+    }
+}
+
+@media (max-width: 320px) {
+    .location_map {
+        display: none;
+    }
+}

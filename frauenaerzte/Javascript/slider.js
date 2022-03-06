@@ -12,7 +12,7 @@ window.addEventListener('load', (event) => {
         // Remove current class
         current.classList.remove('current');
         // Check for next slide
-        if (current.nextElementSibling) {
+        if (current.nextElementSibling && !current.nextElementSibling.classList.contains('buttons')) {
             // Add current to next sibling
             current.nextElementSibling.classList.add('current');
         } else {
@@ -28,7 +28,7 @@ window.addEventListener('load', (event) => {
         // Remove current class
         current.classList.remove('current');
         // Check for prev slide
-        if (current.previousElementSibling) {
+        if (current.previousElementSibling && !current.previousElementSibling.classList.contains('buttons')) {
             // Add current to prev sibling
             current.previousElementSibling.classList.add('current');
         } else {

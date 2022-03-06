@@ -11,7 +11,7 @@
 
 .business-hours .title {
     font-size: 20px;
-    color: darksalmon;
+    color: #ff6767;
     text-transform: uppercase;
     padding-left: 5px;
     border-left: 4px solid #ffac0c;
@@ -28,5 +28,5 @@
 }
 
 .business-hours .opening-hours li.today {
-    color: #ffac0c;
+    color: #ff6767;
 }

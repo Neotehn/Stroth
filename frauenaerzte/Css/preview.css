@@ -59,6 +59,11 @@
     border-radius: 10px;
 }
 
+#stroth {
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+}
+
 .welcomeText {
     width: 100%;
     margin: 0 auto;

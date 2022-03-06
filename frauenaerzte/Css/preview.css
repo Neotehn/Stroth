@@ -91,10 +91,33 @@
 
 .mobileShowcast img {
     object-fit: contain;
-    padding: 30px 30px 0px 30px;
     max-width: 100%;
-    height: auto;
-    width: auto;
+}
+
+.framePreviewEgorova {
+    background-color: #ffac0c;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.framePreviewStroth {
+    background-color: #ffac0c;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.framePreviewEgorova .wrapperAccordeon {
+    padding: 0px;
+}
+
+.framePreviewStroth .wrapperAccordeon {
+    padding: 0px;
+}
+
+.framePreviewEgorova .accordion {
+    background-color: #7c4657;
 }
 
 @media (max-width: 1200px) {

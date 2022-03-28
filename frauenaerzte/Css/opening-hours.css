@@ -30,3 +30,7 @@
 .business-hours .opening-hours li.today {
     color: #ff6500;
 }
+
+.business-hours .opening-hours li.today span {
+    color: #ff6500;
+}

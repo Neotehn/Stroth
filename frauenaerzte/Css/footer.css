@@ -116,6 +116,10 @@
     margin-top: 10px;
 }
 
+.contact-details svg {
+    margin-right: 5px;
+}
+
 .contact-medium {
     display: flex;
     flex-direction: column;
@@ -124,7 +128,6 @@
 .contact-medium p {
     margin: 0;
     margin-bottom: 15px;
-    margin-left: 30px;
 }
 
 .contact-number {
@@ -133,32 +136,8 @@
 }
 
 .contact-number p {
-    margin: 0;
-    margin-left: 10px;
-    margin-bottom: 15px;
+    margin: 10px 0 15px 10px;
     position: relative;
-}
-
-.telephone:before {
-    content: '';
-    background-image: url("../Icons/contact-light.svg");
-    height: 24px;
-    width: 24px;
-    display: inline-block;
-    position: absolute;
-    margin-left: -30px;
-    transform: translateY(-2px);
-}
-
-.fax:before {
-    content: '';
-    background-image: url("../Icons/fax-light.svg");
-    height: 24px;
-    width: 24px;
-    display: inline-block;
-    position: absolute;
-    margin-left: -30px;
-    transform: translateY(-2px);
 }
 
 @media (max-width: 820px) {

@@ -7,3 +7,18 @@
     font-family: "Metropolis";
     src: url("../Fonts/Metropolis/Metropolis-MediumItalic.otf");
 }
+
+@font-face {
+    font-family: "Perpetua Titling MT";
+    src: url("../Fonts/perpetua-titling-mt/PerpetuaTitlingMTLight2.ttf");
+}
+
+@font-face {
+    font-family: "SukhumvitSet-Thin";
+    src: url("../Fonts/SukhumvitSet/SukhumvitSet-Thin.ttf");
+}
+
+@font-face {
+    font-family: "SukhumvitSet-Light";
+    src: url("../Fonts/SukhumvitSet/SukhumvitSet-Light.ttf");
+}

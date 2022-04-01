@@ -1,5 +1,4 @@
 * {
-    font-family: "Segoe UI Historic";
     color: black;
     font-size: 18px;
 }
@@ -18,6 +17,7 @@ h3 {
 
 body {
     margin: 0;
+    font-family: "SukhumvitSet-Light", serif;
 }
 
 ul {
